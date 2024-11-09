@@ -2,40 +2,24 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="p-6 bg-gray-100 text-gray-800">
+    <section className="p-1 bg-gray-100 text-gray-800">
       <div className="justify-center items-center"> 
-        <h2 className="text-4xl font-bold flex items-center">SKILLS</h2>
+        <h2 className="text-2xl font-bold flex items-center">SKILLS</h2>
         <span className="block max-w-[450px] w-full h-[4px] bg-black"></span>
-        <br/>
-        <h2 className="text-xl font-bold justify-center underline ">PROGRAMMING</h2>
+        <p className="gap-y-1"> <h2 className="text-xl font-bold justify-center underline "> Programming Languages:</h2> C++ (Intermediate), JavaScript (Proficient), Java (Beginner).</p>
       </div>
-      <br />
-      <p className="flex gap-x-3">
-        <h3 className="text-xl font-bold">Languages: </h3> C++, Java, JavaScript
+      
+      <p className="flex-col gap-y-1">
+        <h3 className="text-xl font-bold">Database and Language: </h3> Experience in MongoDb,MySQL, PostgreSQL (Intermediate).
       </p>
-      <p className="flex gap-x-2">
-        <h3 className="text-xl font-bold">Android: </h3> UI Design, LifeCycle,
-        Adapters, MVVM.
+      <p className="flex-col gap-y-1">
+        <h3 className="text-xl font-bold">Frameworks: </h3>  Working experience in <b> React JS, Express JS, Node JS, Bootstrap, Tailwind, Next JS.</b>
       </p>
-      <p className="flex gap-x-2">
-        <h3 className="text-xl font-bold">Libraries: </h3> Volley, Glide,
-        Retrofit.
+      <p className="flex-col gap-y-1">
+        <h3 className="text-xl font-bold">Version Control Tools and IDE:  </h3> Git, Git-hub, Visual Studio Code.
       </p>
-      <p className="flex gap-x-2">
-        <h3 className="text-xl font-bold">Tools: </h3> Android Studio, Intellij
-        Idea, Github.
-      </p>
-      <br />
-      <br />
-      <div className="justify-center items-center">
-        <h3 className="text-xl font-bold flex justify-center underline">SOFT SKILLS</h3>
-        <br/>
-        <p className="text-lg">
-          Decision Making, Team Work, 
-          Self-Motivated, Open-Minded,
-          Time-Management, Leadership.
-        </p>
-      </div>
+      
+      
     </section>
   );
 };

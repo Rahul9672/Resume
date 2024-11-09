@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="w-screen max-w-[1820px] mx-auto bg-gray-100 mt-5 mb-3 p-4 overflow-x-hidden">
-      <div className="max-w-6xl w-full mx-auto gap-y-4">
-        <div className="text-5xl font-bold text-black text-center">
+    <header className="w-screen max-w-[1820px] mx-auto bg-gray-100 mt-3 mb-3 p-1 overflow-x-hidden">
+      <div className="max-w-6xl w-full mx-auto ">
+        <div className="text-3xl font-bold text-black text-center">
           <h1>RAHUL KUMAR</h1>
         </div>
         <div className="flex flex-wrap justify-between mt-4 text-lg text-black">

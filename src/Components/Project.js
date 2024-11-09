@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = ({ name, description, backend, animation, sourceCode }) => {
+const Project = ({ name, description, backend, animation, sourceWebpage, sourceCode }) => {
   return (
     <div>
       <h3 className="text-xl font-bold">{name}</h3>
@@ -13,6 +13,10 @@ const Project = ({ name, description, backend, animation, sourceCode }) => {
         </ul>
       </div>
       <br/>
+      <p>
+        <a href={sourceWebpage} className="curser-pointer" > Source Webpage</a>
+      </p>
+      
       <p>
         <a href={sourceCode} className="curser-pointer" > Source Code Github</a>
       </p>
