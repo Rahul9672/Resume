@@ -8,16 +8,16 @@ const Projects = () => {
       <span className="block max-w-[600px] w-full h-[4px] bg-black"></span>
       
       <Project 
-        name="Courses-WebPage"
+        name="Employee-Data-Creation"
         description="Utilized React Context API for advanced state management, leading to a 50% improvement in application optimization."
-        backend="Integrated various APIs, such as weather data from external sources, to enhance app functionality."
+        backend="Integrated various APIs to manage employee data in the backend using Docker with PostgreSQL and MySQL, enhancing application functionality."
         animation="Tech stack used: JavaScript, ReactJs, NodeJs."
-        sourceWebpage="https://master--courses-wbpage.netlify.app/"
-        sourceCode="https://github.com/Rahul9672/Courses-webpage"
+        sourceWebpage="https://fullstack-assignment-ivory.vercel.app/addemployee"
+        sourceCode="https://github.com/Rahul9672/FullstackAssignment"
       />
       <br/>
       <Project
-        name="StudyNation-Tech-Courses"
+        name="StudyNotion-Tech-Courses"
         description="Crafted intuitive user interfaces using ReactJS and optimized data flow by integrating Redux, improving efficiency by 40%."
         backend="Integrated Firebase services like Firestore, Authentication, and Cloud Functions, boosting backend performance by 60% while ensuring real-time data management and secure user authentication."
         animation="Implemented responsive layouts using CSS3 and media queries to deliver a seamless experience across devices, enhancing usability and accessibility."

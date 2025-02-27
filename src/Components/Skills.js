@@ -10,13 +10,13 @@ const Skills = () => {
       </div>
       
       <p className="flex-col gap-y-1">
-        <h3 className="text-xl font-bold">Database and Language: </h3> Experience in MongoDb,MySQL, PostgreSQL (Intermediate).
+        <h3 className="text-xl font-bold">Database and Language: </h3> Experience in MongoDb,MySQL, PostgreSQL.
       </p>
       <p className="flex-col gap-y-1">
-        <h3 className="text-xl font-bold">Frameworks: </h3>  Working experience in <b> React JS, Express JS, Node JS, Bootstrap, Tailwind, Next JS.</b>
+        <h3 className="text-xl font-bold">Frameworks: </h3>  Working experience in <b> React JS, Express JS, Node JS, Bootstrap, Tailwind, Next JS, Medusa, Directus, Docker.</b>
       </p>
       <p className="flex-col gap-y-1">
-        <h3 className="text-xl font-bold">Version Control Tools and IDE:  </h3> Git, Git-hub, Visual Studio Code.
+        <h3 className="text-xl font-bold">Version Control Tools and IDE:  </h3> Git, Git-hub, Visual Studio Code, Postman.
       </p>
       
       

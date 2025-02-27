@@ -11,15 +11,15 @@ import Internships from "./Components/Internships";
 
 function App() {
   return (
-    <div className="w-screen max-w-[1920px] mx-auto  p-1 flex flex-col items-center border shadow-md overflow-hidden">
+    <div className="w-screen max-w-[1920px]  mx-auto flex flex-col items-center border shadow-md overflow-hidden">
       <Header />
 
-      <div className="flex flex-row  gap-1 text-l">
-        <div className="flex flex-col">
+      <div className="max-w-fit justify-items-center px-l-[10] flex flex-row  gap-1 text-l">
+        <div className="w-[45%] flex flex-col mx-[10px]">
           <Education />
           <Projects />
         </div>
-        <div className="flex flex-col ">
+        <div className="w-[45%] flex flex-col ">
           <Skills />
           <Coursework />
           <Achievements />

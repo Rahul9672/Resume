@@ -9,7 +9,7 @@ const Internships = () => {
         </h2>
         <span className="block max-w-[450px] w-full h-[4px] bg-black"></span>
       </div>
-      <p className="text-lg"><h2 className="gap-x-4"> <b>Software Developer BISAG-N </b> (June – Aug)- 2023, Delhi, India </h2>
+      <p className="text-lg"><h2 className="gap-x-4"> <b>Software Developer BISAG-N </b> (March – Aug)- 2024, Delhi, India </h2>
       <br/>
        <ul>
         <li>1. Developed a robust CRUD application using Spring Boot, leveraging its features for rapid development and deployment.</li>
@@ -21,7 +21,7 @@ const Internships = () => {
       </p>
       <br/>
       <p>
-       <h1><b>YOUTH EMPOWERMENT FOUNDATION</b>    YEF/22/DL412</h1> 
+       <h1><b>YOUTH EMPOWERMENT FOUNDATION</b> (Jan – March)- 2024, Delhi, India  -  YEF/22/DL412</h1> 
         <br/>
 
       </p>
