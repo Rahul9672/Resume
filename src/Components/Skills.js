@@ -2,24 +2,37 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="p-1 bg-gray-100 text-gray-800">
-      <div className="justify-center items-center"> 
+    <section className="p-6 bg-gray-100 text-gray-800 rounded-lg shadow-md">
+      {/* Section Heading */}
+      <div className="mb-4">
         <h2 className="text-2xl font-bold flex items-center">SKILLS</h2>
-        <span className="block max-w-[450px] w-full h-[4px] bg-black"></span>
-        <p className="gap-y-1"> <h2 className="text-xl font-bold justify-center underline "> Programming Languages:</h2> C++ (Intermediate), JavaScript (Proficient), Java (Beginner).</p>
+        <span className="block w-40 h-[3px] bg-black mt-1"></span>
       </div>
-      
-      <p className="flex-col gap-y-1">
-        <h3 className="text-xl font-bold">Database and Language: </h3> Experience in MongoDb,MySQL, PostgreSQL.
-      </p>
-      <p className="flex-col gap-y-1">
-        <h3 className="text-xl font-bold">Frameworks: </h3>  Working experience in <b> React JS, Express JS, Node JS, Bootstrap, Tailwind, Next JS, Medusa, Directus, Docker.</b>
-      </p>
-      <p className="flex-col gap-y-1">
-        <h3 className="text-xl font-bold">Version Control Tools and IDE:  </h3> Git, Git-hub, Visual Studio Code, Postman.
-      </p>
-      
-      
+
+      {/* Skills List */}
+      <div className="space-y-3">
+        <div>
+          <h3 className="text-xl font-semibold text-gray-900 underline">Programming Languages:</h3>
+          <p className="text-gray-700">C++ (Intermediate), JavaScript (Proficient), Java (Beginner).</p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-gray-900 underline">Databases:</h3>
+          <p className="text-gray-700">Experience in MongoDB, MySQL, PostgreSQL.</p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-gray-900 underline">Frameworks:</h3>
+          <p className="text-gray-700">
+            ReactJS, ExpressJS, NodeJS, Bootstrap, Tailwind, NextJS, Medusa, Directus, Docker.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-gray-900 underline">Version Control & Tools:</h3>
+          <p className="text-gray-700">Git, GitHub, Visual Studio Code, Postman.</p>
+        </div>
+      </div>
     </section>
   );
 };

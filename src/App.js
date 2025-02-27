@@ -11,19 +11,21 @@ import Internships from "./Components/Internships";
 
 function App() {
   return (
-    <div className="w-screen max-w-[1920px]  mx-auto flex flex-col items-center border shadow-md overflow-hidden">
+    <div className="w-full max-w-[1200px] mx-auto p-4 border shadow-md overflow-x-hidden overflow-y-hidden text-sm">
       <Header />
 
-      <div className="max-w-fit justify-items-center px-l-[10] flex flex-row  gap-1 text-l">
-        <div className="w-[45%] flex flex-col mx-[10px]">
+      {/* Optimized Grid Layout for One-Page */}
+      <div className="grid grid-cols-2 gap-4">
+        <div className="space-y-3">
           <Education />
-          <Projects />
-        </div>
-        <div className="w-[45%] flex flex-col ">
           <Skills />
           <Coursework />
           <Achievements />
           <Hobbies />
+        </div>
+
+        <div className="space-y-3">
+          <Projects />
           <Internships />
         </div>
       </div>
