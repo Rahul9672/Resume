@@ -3,7 +3,7 @@ import Project from './Project';
 
 const Projects = () => {
   return (
-    <section className="p-6 bg-gray-100 text-gray-800 rounded-lg shadow-md">
+    <section className="p-4 bg-gray-100 text-gray-800 rounded-lg shadow-md">
       {/* Section Heading */}
       <div className="mb-2">
         <h2 className="text-2xl font-semibold flex items-center">PROJECTS</h2>
