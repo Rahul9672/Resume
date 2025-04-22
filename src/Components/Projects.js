@@ -30,12 +30,12 @@ const Projects = () => {
       />
 
       <Project
-        name="Random-Gif Generator"
-        description="Developed a React-based Random-Gif generator to fetch and display GIFs dynamically."
-        backend="Implemented API fetching for real-time updates and interactive user experiences."
-        animation="Utilized advanced React techniques, including hooks and state management."
-        sourceWebpage="https://calm-belekoy-87b570.netlify.app/"
-        sourceCode="https://github.com/Rahul9672/Random-Gif"
+        name="Real Estate Backend System"
+        description="Developed a Node.js backend for a real estate platform with modular Mongoose models."
+        backend="Designed RESTful APIs for user management and property listings using Express.js."
+        database="Structured MongoDB schemas for User and Property models, enabling efficient data handling and queries."
+        sourceWebpage="https://www.loom.com/share/32db61da19894d9fa48d59234c297e2b?sid=6a350af3-fe51-4b6f-8753-5205ee18a4d5"
+        sourceCode="https://github.com/Rahul9672/RealEstateApp"
       />
     </section>
   );

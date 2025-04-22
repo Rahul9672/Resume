@@ -11,7 +11,7 @@ import Internships from "./Components/Internships";
 
 function App() {
   return (
-    <div className="w-full max-w-[1200px] mx-auto p-4 border shadow-md overflow-x-hidden overflow-y-hidden text-sm">
+    <div className="w-full max-w-[1200px] mx-auto p-3 border shadow-md overflow-x-hidden overflow-y-hidden text-sm">
       <Header />
 
       {/* Optimized Grid Layout for One-Page */}
