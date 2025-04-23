@@ -24,7 +24,7 @@ const Skills = () => {
         <div>
           <h3 className="text-xl font-semibold text-gray-900 underline">Frameworks:</h3>
           <p className="text-gray-700">
-            ReactJS, ExpressJS, NodeJS, Bootstrap, Tailwind, NextJS, Medusa, Directus, Docker.
+            ReactJSX, TypeScript, ExpressJS, NodeJS, Bootstrap, Tailwind, NextJS, Medusa, Directus, Docker.
           </p>
         </div>
 
