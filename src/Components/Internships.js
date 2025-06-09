@@ -10,11 +10,11 @@ const Internships = () => {
         <span className="block w-40 h-[3px] bg-black mt-1"></span>
       </div>
 
-      {/* BISAG-N Internship */}
+      {/* Weframetech Internship */}
       <div className="border-l-4 border-green-300 pl-4 py-4 mb-6 bg-white shadow-sm rounded">
         <h3 className="text-xl font-bold text-gray-900">Backend Developer</h3>
         <a href="#" className="text-blue-600 font-semibold">
-          WEFRAME
+          Weframetech Solutions Pvt Ltd.
         </a>
         <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
           <span className="flex items-center">
@@ -25,30 +25,24 @@ const Internships = () => {
           </span>
         </div>
         <p className="mt-2 text-gray-700">
-          A technology company focused on developing comprehensive backend
-          solutions
+          A technology company focused on developing comprehensive backend solutions
         </p>
         <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
-          <li>
-            Built RESTful APIs and optimized backend logic for improved
-            performance
-          </li>
-          <li>
-            Implemented JWT-based authentication and enhanced database
-            efficiency
-          </li>
+          <li>Built RESTful APIs and optimized backend logic for improved performance</li>
+          <li>Implemented JWT Authentication and enhanced database efficiency</li>
           <li>Collaborated with frontend teams for seamless integration</li>
         </ul>
       </div>
-      {/* YEF Internship */}
+
+      {/* Webpulse Internship */}
       <div className="border-l-4 border-green-300 pl-4 py-4 mb-6 bg-white shadow-sm rounded">
         <h3 className="text-xl font-bold text-gray-900">PHP Developer</h3>
         <a href="#" className="text-blue-600 font-semibold">
-          WEBPULSE
+          𝐖𝐞𝐛𝐩𝐮𝐥𝐬𝐞 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐏𝐯𝐭 𝐋𝐭𝐝
         </a>
         <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
           <span className="flex items-center">
-            <FaCalendarAlt className="mr-1" /> 04/2025 – Present
+            <FaCalendarAlt className="mr-1" /> 04/2025 – 05/2025
           </span>
           <span className="flex items-center">
             <FaMapMarkerAlt className="mr-1" /> Delhi, India
@@ -58,18 +52,9 @@ const Internships = () => {
           A company specializing in web development services
         </p>
         <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
-          <li>
-            Developing dynamic web applications and managing backend logic in
-            PHP
-          </li>
-          <li>
-            Integrated MySQL databases and optimized queries for better
-            performance
-          </li>
-          <li>
-            Maintaining code quality and collaborating with UI teams for smooth
-            delivery
-          </li>
+          <li>Developing dynamic web applications and managing backend logic in PHP</li>
+          <li>Integrated MySQL databases and optimized queries for better performance</li>
+          <li>Maintaining code quality and collaborating with UI teams for smooth delivery</li>
         </ul>
       </div>
     </section>
