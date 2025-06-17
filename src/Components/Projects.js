@@ -12,7 +12,7 @@ const Projects = () => {
 
       {/* Projects List */}
       <Project
-        name="Employee Data Creation"
+        name="Employee Data Creation  : Backend"
         description="Implemented React Context API for scalable state management."
         backend="Built and containerized backend services with Docker, PostgreSQL, and MySQL to manage employee data effectively."
         animation="Tech Stack: JavaScript, React.js, Node.js"
@@ -21,7 +21,7 @@ const Projects = () => {
       />
 
       <Project
-        name="StudyNotion Tech Courses"
+        name="StudyNotion Tech Courses : FullStack"
         description="Designed and developed a full-stack application featuring an engaging UI built with React JSX and Tailwind CSS, using Redux for state management."
         backend="Implemented backend services with Node.js and MongoDB, along with Firebase Authentication and Cloud Functions for user security and serverless logic."
         animation="Applied responsive design using Tailwind CSS and media queries to ensure seamless user experience across devices."
@@ -30,13 +30,35 @@ const Projects = () => {
       />
 
       <Project
-        name="Real Estate Backend System"
+        name="Ship Maintenance Dashboard : Frontend"
+        description="Designed a role-based ship management system with dynamic dashboards and secure localStorage-driven state."
+        backend="No backend integration — data persistence, access control, and state management are handled entirely through localStorage utilities."
+        animation="Tech Stack: JavaScript, React.js, Tailwind CSS"
+        sourceWebpage="https://entnt-technical-assignment-mauve.vercel.app/login"
+        sourceCode="https://github.com/Rahul9672/ENTNT-Technical-Assignment"
+        LoginDetails={
+          <>
+            <strong>Login Details:</strong>
+               <br />
+              <div className="ml-4">
+              Admin – <code>admin@entnt.in / admin123</code>
+               <br />
+               Inspector – <code>inspector@entnt.in / inspect123</code>
+               <br />
+              Engineer – <code>engineer@entnt.in / engineer123</code>
+              </div>
+          </>
+        }
+      />
+
+      {/* <Project
+        name="Real Estate Backend System "
         description="Built a robust Node.js backend for a real estate platform, utilizing modular Mongoose models."
         backend="Created RESTful APIs using Express.js for user authentication and property listings."
         animation="Designed scalable MongoDB schemas for User and Property models, enabling efficient data operations."
         sourceWebpage="https://www.loom.com/share/32db61da19894d9fa48d59234c297e2b?sid=6a350af3-fe51-4b6f-8753-5205ee18a4d5"
         sourceCode="https://github.com/Rahul9672/RealEstateApp"
-      />
+      /> */}
     </section>
   );
 };

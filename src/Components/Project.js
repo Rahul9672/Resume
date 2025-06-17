@@ -1,10 +1,11 @@
 import React from "react";
 
-const Project = ({ name, description, backend, animation, sourceWebpage, sourceCode }) => {
+const Project = ({ name, description, backend, animation, sourceWebpage, sourceCode, LoginDetails }) => {
   return (
     <div className="mb-2 p-3 bg-white shadow-sm rounded-lg border">
       <h3 className="text-xl font-bold text-gray-900">{name}</h3>
       <ul className="list-disc list-inside mt-1 text-gray-700 leading-relaxed">
+      {LoginDetails && <li>{LoginDetails}</li>}
         <li>{description}</li>
         <li>{backend}</li>
         <li>{animation}</li>
